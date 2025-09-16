@@ -1,12 +1,48 @@
-# React + Vite
+# 🍰 RapidRoti - Product List with Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![RapidRoti Screenshot](./preview.jpg) <!-- Add screenshot path or use Netlify live screenshot -->
 
-Currently, two official plugins are available:
+This is a solution to the [Frontend Mentor Challenge](https://www.frontendmentor.io) – "Product List with Cart".
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+RapidRoti is a responsive food product listing interface with an interactive cart system. Users can browse desserts, add or remove items from their cart, and confirm their order in a clean, user-friendly UI.
 
-## Expanding the ESLint configuration
+[🔗 Live Site](https://rapidroti.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- ✅ Add items to the cart
+- ✅ Remove items from the cart
+- ✅ Increase/decrease item quantities
+- ✅ View real-time total price
+- ✅ Confirmation modal on order submit
+- ✅ Start a new order after confirmation
+- ✅ Responsive layout for mobile, tablet, and desktop
+- ✅ Accessible and interactive UI
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **HTML5**
+- **CSS3 / Flexbox / Grid**
+- **JavaScript (ES6+)**
+- **Netlify (for deployment)**
+
+---
+
+## 📁 Folder Structure
+
+📦 src
+├── App.js
+├── App.css
+├── component
+│ ├── FoodList.js
+│ ├── Bill.js
+│ └── ConfirmOrder.js
+├── Api
+│ └── data.json
+└── assets
+└── images...
