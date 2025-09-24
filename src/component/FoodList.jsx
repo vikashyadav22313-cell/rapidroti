@@ -11,7 +11,7 @@ export const FoodList = ({
       {data.map((cuEl, index) => {
         return (
           <li className="sep-food" key={index}>
-            <img src={cuEl.image.desktop} className="image-size" />
+            <img src={cuEl.image.desktop} className="image-size" alt={cuEl.name}/>
             <div
               className="cart-section"
               style={{
@@ -23,7 +23,7 @@ export const FoodList = ({
               {!cartItems.some((i) => i.name === cuEl.name) && (
                 <div className="displayCart">
                   <div className="cartKaro" onClick={() => handleAddCart(cuEl)}>
-                    <img src="./images/icon-add-to-cart.svg" />
+                    <img src="./images/icon-add-to-cart.svg" alt="add-to-cart"/>
                     <p>Add to Cart</p>
                   </div>
                 </div>
@@ -35,7 +35,7 @@ export const FoodList = ({
                       <img
                         src="./images/icon-decrement-quantity.svg"
                         onClick={() => handleMinus(cuEl)}
-                      />
+                      alt="decrement"/>
                     </div>
                     <p className="selected-quantity">
                       {" "}
@@ -46,7 +46,7 @@ export const FoodList = ({
                       <img
                         src="./images/icon-increment-quantity.svg"
                         onClick={() => handlePlus(cuEl)}
-                      />
+                      alt="increment"/>
                     </div>
                   </div>
                 </div>
