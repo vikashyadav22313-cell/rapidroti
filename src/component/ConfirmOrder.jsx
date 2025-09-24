@@ -14,7 +14,7 @@ export const ConfirmOrder = ({
     <div className="confirm-box">
       <div className="confirmDetail">
         <div className="hope-text">
-          <img src="./images/icon-order-confirmed.svg" />
+          <img src="./images/icon-order-confirmed.svg" alt="order-confirm"/>
           <h4>Order Confirmed</h4>
           <p>We hope you enjoy your food!</p>
         </div>
